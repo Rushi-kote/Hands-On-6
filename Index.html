@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>1. ,Write a code to insert an Image</h3>
+    <p>
+        &#x261B; CODE:  
+        <pre>
+            < img src="Coins.png" alt="Coins" height="10%" width="10%">
+        </pre>
+        
+        OUTPUT:
+    </p>
+
+    <img src="Coins.png" alt="Coins" height="10%" width="10%">
+    <br>
+
+    <h3>2. Create a form contain input fields like name age email and contact</h3>
+    &#x261B;
+    <div style="border: 1; width: 30%; background-color: lightgray;">
+        <form action="">
+            <label for="fname">First Name :</label>
+            <input type="text" placeholder="enter here your name" name="fname" > 
+            <br>
+            <br>
+            <label for="lname">Last Name :</label>
+            <input type="text" placeholder="enter here your last name" name="lname" >
+            <br>
+            <br>
+            <label for="age">Age :</label>
+            <input type="number" pattern="[0-9]-{2}" placeholder="enter here your age" name="age" >
+            <br>
+            <br>
+            <label for="age">Email :</label>
+            <input type="email" placeholder="enter here your email" name="email" >
+            <br>
+            <br>
+            <label for="age">contact :</label>
+            <input type="tel" pattern="[0-9]-{10}" placeholder="enter here your Contact Number" name="contact" >
+            <br>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <h3>3. Create a table and explain how to acheive colspan    </h3>
+    <p>
+        &#x261B;
+        The colspan attribute in HTML specifies the number of columns a cell should span. 
+        It allows the single table cell to span the width of more than one cell or column. 
+        It provides the same functionality as “merge cell” in a spreadsheet program like Excel. <br>
+        <b>Usage:</b>  It can be used with < td> and < th> element while creating an HTML Table.
+    </p>
+    <table border="" align="center">
+        <thead>
+            <th >
+                Name
+            </th>
+            <th colspan="2">
+                Email
+            </th>
+            <th>
+                PINCODE
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rushi</td>
+                <td >koterushi@gmail.com</td>
+                <td >koterushi242@gmail.com</td>
+                <td>431512</td>
+            </tr>
+            <tr>
+                <td>Raj</td>
+                <td >rajkolekar@gmail.com</td>
+                <td >rajkolekar242@gmail.com</td>
+                <td>431512</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+
+    <h3>4. Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two </h3>
+    <p>
+        &#x261B;Checkboxes and radio buttons are elements for making selections. Checkboxes allow the 
+        user to choose items from a fixed number of alternatives, while radio buttons allow the user 
+        to choose exactly one item from a list of several predefined alternatives.
+    </p>
+    <div style="border: 1; background-color: lightgray; width: 30%;">
+        <form action="">
+            <label for="course" >Course:</label>
+            <br>
+            <input type="radio" name="course" id="MERN" value="MERN">
+            <label for="MERN">MERN</label>
+            <br>
+            <input type="radio" name="course" id="MEAN" value="MEAN">
+            <label for="MEAN">MEAN</label>
+            <br>
+            <br>
+            <label for="technology">Technology: </label>
+            <br>
+            
+            <input type="checkbox" name="technology" id="html" value="HTML">
+            <label for="html">HTML</label>
+            <br>
+            <input type="checkbox" name="technology" id="css" value="CSS">
+            <label for="css">CSS</label>
+            <br>
+            <input type="checkbox" name="technology" id="React" value="React">
+            <label for="React">React</label>
+            <br>
+            <input type="checkbox" name="technology" id="js" value="JS">
+            <label for="JS">JS</label>
+            <br>
+            <br>
+            <input type="submit" value="submit">
+    
+        </form>
+    </div>
+</body>
+</html>
